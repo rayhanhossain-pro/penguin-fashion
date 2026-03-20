@@ -1,0 +1,40 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #363958;
+}
+
+/* Optimized Linear Gradient with refined contrast */
+.button-linear-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(164, 188, 70, 1) 0%, 
+    rgba(133, 160, 25, 1) 100%
+  );
+  color: #FFFFFF; /* High contrast text for accessibility */
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Adding a hover state for better interactivity */
+.button-linear-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  opacity: 0.95;
+}
